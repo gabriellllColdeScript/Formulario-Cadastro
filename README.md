@@ -7,3 +7,4 @@
 * Fonts;
 * Tamanho da Fonte; 
 * Estrutura dos Elementos na Página; 
+
