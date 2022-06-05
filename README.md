@@ -3,7 +3,7 @@
 ## ínicio desenvolver o layout da página!
 
 * Imagem; 
-* paleta de cores; 
-* fonts;
-* tamanho da fonte; 
-* estrutura dos elementos na página; 
+* Paleta de cores; 
+* Fonts;
+* Tamanho da Fonte; 
+* Estrutura dos Elementos na Página; 
