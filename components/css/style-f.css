@@ -1,0 +1,41 @@
+/* Geral */
+
+* {
+
+    color: var(--geral-color);
+
+}
+
+:root {
+
+    --geral-color:#323232;
+    --color-link: #d27686;
+
+}
+
+input, label {
+
+    display: block;
+    width: 100%;
+
+}
+
+input:focus, label:focus {
+
+    outline: none;
+
+}
+
+a {
+
+    color: var(--color-link);
+
+}
+
+body {
+
+    padding-top: 5vh;
+    background-image: url('../../assets/img/img-fundo.jpg');
+    background-size: cover;
+
+}

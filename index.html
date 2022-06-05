@@ -22,7 +22,65 @@
 
     <body>
 
- 
+        <section id="main-cotainer">
+
+            <h1>Cadastre - se The Destroyers</h1>
+
+            <form action="#" id="register-form" method="post">
+
+                <aside class="full-box">
+
+                    <label for="email-ID">E-mail</label>
+                    <input type="email" name="email" id="email-ID" placeholder="Digite seu e-mail...">
+
+                </aside><!-- /.full-box -->
+                
+                <aside class="half-box">
+
+                    <label for="name-ID">Nome:</label>
+                    <input type="text" name="name" id="name-ID" placeholder="Digite seu nome...">
+
+                </aside><!-- /.half-box -->
+
+                <aside class="half-box">
+
+                    <label for="last-Name-ID">Sobrenome:</label>
+                    <input type="text" name="last-name" id="last-Name-ID" placeholder="Digite seu Sobrenome...">
+
+                </aside><!-- /.half-box -->
+
+                <aside class="half-box">
+
+                    <label for="password-ID">Senha:</label>
+                    <input type="password" name="password" id="password-ID" placeholder="Digite sua Senha...">
+
+                </aside><!-- /.half-box -->
+
+                <aside class="half-box">
+
+                    <label for="confirm-Password-ID">Confirme sua Senha:</label>
+                    <input type="password" name="confirm-password" id="confirm-Password-ID" placeholder="Comfirme sua Senha...">
+
+                </aside><!-- /.half-box -->
+
+                <aside class="full-box">
+
+                    <input type="checkbox" name="agreement" id="agreement-ID">
+                    <label for="agreement" id="agreement-Label-ID">Eu li e aceito os <a href="#">termos de uso</a></label>
+
+                </aside><!-- /.full-box -->
+
+                <aside class="full-box">
+
+                    <input type="submit" id="btn-submit" value="Enviar" onclick="cadastrar()">
+
+                </aside><!-- /.full-box -->
+
+                <p class="error-Validation template"></p>
+
+            </form><!-- /#register-form -->
+
+        </section>
 
         <script src="components/js/JavaScript-f.js"></script>
 
